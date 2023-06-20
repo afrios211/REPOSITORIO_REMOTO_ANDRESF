@@ -57,7 +57,7 @@ public class cuenta {
 		this.saldo = saldo;
 	}
        
-       
+       //movimientos
        public void agregarMovimientos(String mensaje){
            listaMovimientos.add(mensaje);
            

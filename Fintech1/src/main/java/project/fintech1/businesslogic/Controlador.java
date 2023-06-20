@@ -15,6 +15,7 @@ import java.util.ArrayList;
 public class Controlador {
 
  float totalComision;
+    
     //instanciar o crear un objeto de tipo ArrayList
     ArrayList<usuario> listaUsuarios = new ArrayList<usuario>();
     ArrayList<cuenta> listaCuentas = new ArrayList<cuenta>();
@@ -84,7 +85,6 @@ public class Controlador {
     }            
 
     //buscarAdministrador
-    
     public boolean buscarAdministrador(String cedula){
         for (int contador = 0; contador < listaAdministradores.size(); contador++) {
 
